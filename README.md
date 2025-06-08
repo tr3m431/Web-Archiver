@@ -23,7 +23,7 @@ A complete web archiving solution similar to the Wayback Machine, built with Rea
 1. **Clone and setup:**
 ```bash
 git clone https://github.com/tr3m431/Web-Archiver.git
-cd web-archiver
+cd Web-Archiver
 npm install
 ```
 

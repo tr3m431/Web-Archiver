@@ -1,0 +1,29 @@
+{
+  "name": "web-archiver",
+  "version": "1.0.0",
+  "description": "A web archiving tool that allows users to save and manage web pages",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "bash scripts/start-dev.sh",
+    "setup": "bash scripts/setup.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tr3m431/Web-Archiver.git"
+  },
+  "keywords": [
+    "web-archiver",
+    "web-crawler",
+    "archive",
+    "wayback"
+  ],
+  "author": "Tremael Arrington",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
